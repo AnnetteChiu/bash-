@@ -1,0 +1,10 @@
+#!/bin/bash
+for file in $(find~-inmae "*.jpg" |head- 100)
+do
+  cp $file~/backup
+done
+
+if [$(ls-l ~/backup |wc-l) -lt 5];
+then
+  echo take more pictures!
+fi
