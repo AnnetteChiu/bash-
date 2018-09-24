@@ -10,3 +10,8 @@ $command
 substitution
 function
 if
+
+CISC 5500 DATA ANALYTICS TOOLS & SCRIPTING  Homework2 
+
+Write a shell script in bash doing the following task: search for all the files whose name ends with '.jpg' under the home directory, including all the subdirectories within; create a subdirectory called backup under the home directory; make a copy of all the .jpg files in backup or only the first 100 in case the total number is larger than 100; print a message reporting the job is done and saying "Take more pictures!" if the number of files copied is less than 5.
+Hint: you may need to use the commands wc and head.
